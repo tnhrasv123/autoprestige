@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.prestigeautomation.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "prestige-automation.refmap.json",
+  "mixins": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

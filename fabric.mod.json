@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "prestige-automation",
+  "version": "1.0.0",
+  "name": "Prestige Automation",
+  "description": "Automates prestige and ascension mechanics with configurable timers",
+  "authors": [
+    "PrestigeBot"
+  ],
+  "contact": {
+    "homepage": "https://github.com/prestige-automation/mod"
+  },
+  "license": "MIT",
+  "icon": "assets/prestige-automation/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.prestigeautomation.PrestigeAutomationClient"
+    ]
+  },
+  "mixins": [
+    "prestige-automation.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
